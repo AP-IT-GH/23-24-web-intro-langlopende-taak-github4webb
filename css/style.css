@@ -3,8 +3,8 @@
     --secondary-color: #8C3545;
     --accent-color-1: #D9073F;
     --accent-color-2: #F2528D;
-    --background-color: #0074D9; /* Blue background color */
-    --text-color: #FFFFFF; /* White text color */
+    --background-color: #0074D9; 
+    --text-color: #FFFFFF; 
     --link-color: #f2528d;
     --hover-color: #d9073f;
     --active-color: #f20530;
@@ -19,37 +19,37 @@
 
 
   header {
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); /* Use a linear gradient to blend the primary and secondary colors */
-    padding: 20px 0; /* Add padding to top and bottom */
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    padding: 20px 0; 
   }
   
   .container {
-    width: 90%; /* Set the width of the container */
-    margin: 0 auto; /* Center the container horizontally */
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Align items with space between */
-    align-items: center; /* Align items vertically */
+    width: 90%; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
   }
   
   nav ul {
-    list-style-type: none; /* Remove bullet points from list */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
   }
   
   nav ul li {
-    display: inline; /* Display list items horizontally */
-    margin-left: 20px; /* Add space between list items */
+    display: inline; 
+    margin-left: 20px; 
   }
   
   nav ul li a {
-    color: var(--text-color); /* Use white text color */
-    text-decoration: none; /* Remove underline from links */
-    font-weight: bold; /* Make text bold */
+    color: var(--text-color); 
+    text-decoration: none; 
+    font-weight: bold; 
   }
   
   nav ul li a:hover {
-    color: var(--hover-color); /* Change text color on hover */
+    color: var(--hover-color); 
   }
 
 
@@ -61,40 +61,40 @@
 
 
   main {
-    padding: 50px 0; /* Add padding to top and bottom */
+    padding: 50px 0; 
   }
   
   .about-me,
   .project-info {
-    width: 45%; /* Set width for each section */
+    width: 45%; 
   }
   
   .about-me img {
-    max-width: 100%; /* Ensure the image fits within its container */
-    border-radius: 50%; /* Apply border radius for a circular shape */
-    margin-bottom: 20px; /* Add spacing below the image */
+    max-width: 100%; 
+    border-radius: 50%; 
+    margin-bottom: 20px; 
   }
   
   .about-me h2,
   .project-info h2 {
-    color: var(--text-color); /* Use white text color */
+    color: var(--text-color); 
   }
   
   .about-me p,
   .project-info p {
-    color: var(--text-color); /* Use white text color */
-    line-height: 1.6; /* Set line height for better readability */
+    color: var(--text-color); 
+    line-height: 1.6; 
   }
   
 
 
   .about-me,
   .project-info {
-    width: 45%; /* Set width for each section */
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); /* Use the same gradient as the header */
-    padding: 20px; /* Add padding inside the blocks */
-    border-radius: 10px; /* Add border radius for rounded corners */
-    margin-bottom: 30px; /* Add spacing below each block */
+    width: 45%; 
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-bottom: 30px; 
   }
   
 
@@ -128,13 +128,13 @@
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 30px;
-  transition: transform 0.3s ease; /* Add transition for smooth animation */
+  transition: transform 0.3s ease; 
 }
 
 .about-me:hover,
 .project-info:hover,
 .about-chiro:hover {
-  transform: scale(1.05); /* Scale up the block slightly on hover */
+  transform: scale(1.05); 
 }
 
 .about-me h2,
@@ -159,7 +159,7 @@
 
 
   body {
-    background-color: #F2F2F2; /* Set a light gray background color */
+    background-color: #F2F2F2; 
     background-image: 
       linear-gradient(90deg, transparent 5%, rgba(0, 0, 0, 0.1) 5%, rgba(0, 0, 0, 0.1) 6%, transparent 6%, transparent),
       linear-gradient(45deg, transparent 5%, rgba(0, 0, 0, 0.1) 5%, rgba(0, 0, 0, 0.1) 6%, transparent 6%, transparent),
@@ -181,9 +181,9 @@
 
 
   footer {
-    background-color: #282425; /* Set black color for the footer background */
-    color: #fff; /* Set text color for the footer */
-    padding: 50px 0; /* Add padding to the top and bottom */
+    background-color: #282425; 
+    color: #fff; 
+    padding: 50px 0; 
   }
   
   
@@ -199,19 +199,19 @@
   .footer-contact,
   .footer-social,
   .footer-links {
-    flex: 1; /* Make each section take up equal space */
+    flex: 1; 
   }
   
   .footer-contact h3,
   .footer-social h3,
   .footer-links h3 {
-    color: #fff; /* Set color for section headings */
+    color: #fff; 
   }
   
   .footer-contact p,
   .footer-social ul,
   .footer-links ul {
-    list-style: none; /* Remove default list styles */
+    list-style: none; 
     padding: 0;
     margin: 0;
   }
@@ -222,13 +222,13 @@
   }
   
   .footer-social ul li a {
-    color: #fff; /* Set color for social media icons */
+    color: #fff; 
     text-decoration: none;
-    font-size: 20px; /* Adjust size of social media icons */
+    font-size: 20px; 
   }
   
   .footer-social ul li a:hover {
-    color: #ccc; /* Change color on hover */
+    color: #ccc; 
   }
   
   .footer-links ul li {
@@ -236,12 +236,12 @@
   }
   
   .footer-links ul li a {
-    color: #ccc; /* Set color for links */
+    color: #ccc; 
     text-decoration: none;
   }
   
   .footer-links ul li a:hover {
-    color: #fff; /* Change color on hover */
+    color: #fff; 
   }
   
   .copyright {
@@ -250,7 +250,7 @@
   }
   
   .copyright p {
-    color: #ccc; /* Set color for copyright text */
+    color: #ccc; 
     font-size: 14px;
   }
   
@@ -263,7 +263,7 @@
 
 
 
-/* CSS for the main dashboard section */
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -271,7 +271,7 @@ main {
   }
   
   .dashboard-block {
-    width: calc(50% - 20px); /* Set each block to occupy 50% of the width with spacing */
+    width: calc(50% - 20px); 
     background-color: #f2f2f2;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -299,37 +299,37 @@ main {
   .main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center the blocks horizontally */
-    align-items: flex-start; /* Align the blocks at the start vertically */
-    max-width: 1200px; /* Set a maximum width for the container */
-    margin: 0 auto; /* Center the container horizontally */
+    justify-content: center; 
+    align-items: flex-start; 
+    max-width: 1200px; 
+    margin: 0 auto; 
   }
   
   .service {
-    color: #fff; /* Text color */
+    color: #fff; 
     border-radius: 10px;
     padding: 20px;
-    width: calc(33.33% - 20px); /* Set each block to occupy 33.33% of the width with spacing */
-    max-width: 300px; /* Set a maximum width for each block */
-    height: 200px; /* Set the height of each block */
-    margin: 0 15px 30px; /* Add margins to create space between blocks */
-    transition: transform 0.3s ease; /* Add transition for smooth animation */
+    width: calc(33.33% - 20px); 
+    max-width: 300px; 
+    height: 200px; 
+    margin: 0 15px 30px; 
+    transition: transform 0.3s ease; 
   }
   
   .service:nth-child(1),
   .service:nth-child(2),
   .service:nth-child(3) {
-    background: linear-gradient(45deg, #F2053A, #8C3545); /* Mix of colors for the first row */
+    background: linear-gradient(45deg, #F2053A, #8C3545); 
   }
   
   .service:nth-child(4),
   .service:nth-child(5),
   .service:nth-child(6) {
-    background: linear-gradient(45deg, #8C3545, #D9073F); /* Mix of colors for the second row */
+    background: linear-gradient(45deg, #8C3545, #D9073F); 
   }
   
   .service:hover {
-    transform: scale(1.05); /* Scale up the block slightly on hover */
+    transform: scale(1.05); 
   }
   
   .service h2 {
@@ -356,60 +356,59 @@ main {
 
 
 
-/* Default styles for desktop and laptop screens */
+
 .contact-info {
     display: flex;
-    justify-content: center; /* Center the blocks horizontally */
+    justify-content: center;
     margin-top: 40px;
 }
 
 .person {
-    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color)); /* Gradient background */
-    color: #fff; /* Adjust text color */
-    padding: 60px; /* Increase padding to make the block bigger */
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color)); 
+    color: #fff; 
+    padding: 60px; 
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-    width: calc(50% - 20px); /* Adjust width to fit two blocks with a gap */
-    margin-right: 20px; /* Add margin between blocks */
+    width: calc(50% - 20px); 
+    margin-right: 20px; 
 }
 
 .person:last-child {
-    margin-right: 0; /* Remove margin from last block to avoid extra space */
+    margin-right: 0; 
 }
 
 .person h2 {
     margin-bottom: 20px;
 }
 
-/* Media query for tablets and smaller screens */
+
 @media (max-width: 1024px) {
     .contact-info {
-        flex-direction: column; /* Stack blocks vertically */
-        align-items: center; /* Center blocks horizontally */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .person {
-        width: 100%; /* Full width for each block */
-        margin-right: 0; /* Remove margin between blocks */
-        margin-bottom: 20px; /* Add margin below each block */
+        width: 100%; 
+        margin-right: 0; 
+        margin-bottom: 20px; 
     }
 }
 
-/* Media query for mobile devices */
+
 @media (max-width: 600px) {
     .person {
-        padding: 40px; /* Adjust padding for smaller screens */
+        padding: 40px; 
     }
 }
 
 .person {
-    /* Your existing styles for the person block */
-    /* Add other styles as needed */
-    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+
+    transition: transform 0.3s ease;
 }
 
 .person:hover {
-    transform: scale(1.1); /* Scale up the block on hover */
+    transform: scale(1.1); 
 }
 
 
@@ -433,16 +432,16 @@ main {
 
 
   .logo {
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    border-radius: 20px; /* Adjust border radius to create a round square */
-    overflow: hidden; /* Hide overflow to ensure rounded corners */
+    width: 100px; 
+    height: 100px; 
+    border-radius: 20px; 
+    overflow: hidden; 
   }
   
   .logo img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure the image covers the entire container */
+    object-fit: cover; 
   }
   
 
@@ -469,9 +468,9 @@ main {
 
 
   .header {
-    background-color: #8C3545; /* Adjust header background color */
-    color: #fff; /* Adjust text color */
-    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #8C3545; 
+    color: #fff; 
+    padding: 10px 20px; 
   }
   
   .navbar {
@@ -481,7 +480,7 @@ main {
   }
   
   .logo {
-    width: 250px; /* Adjust width as needed */
+    width: 250px; 
   }
   
   .nav-menu {
@@ -492,15 +491,15 @@ main {
   }
   
   .nav-menu li {
-    margin-right: 20px; /* Adjust margin between menu items */
+    margin-right: 20px; 
   }
   
   .search-bar {
-    margin-left: auto; /* Push search bar to the right */
+    margin-left: auto; 
   }
   
   .search-form input {
-    width: 200px; /* Adjust width of the search input */
+    width: 200px; 
     padding: 8px;
     border: none;
     border-radius: 5px;
@@ -508,8 +507,8 @@ main {
   }
   
   .search-form button {
-    background-color: #D9073F; /* Adjust button background color */
-    color: #fff; /* Adjust button text color */
+    background-color: #D9073F; 
+    color: #fff; 
     border: none;
     padding: 8px 16px;
     border-radius: 5px;
@@ -517,17 +516,17 @@ main {
   }
   
   .search-form button:hover {
-    background-color: #f20530; /* Adjust button hover background color */
+    background-color: #f20530; 
   }
 
   .nav-menu li a {
-    color: #fff; /* Set default text color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s; /* Smooth transition for color change */
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s; 
   }
   
   .nav-menu li a:hover {
-    color: #fff; /* Keep text color white on hover */
+    color: #fff; 
   }
   
 
@@ -545,21 +544,21 @@ main {
 
 
 
-/* Default styles */
+
 body {
-    font-family: Arial, sans-serif; /* Default font family */
-    font-size: 16px; /* Default font size */
-    color: #333; /* Default text color */
-    background-color: #fff; /* Default background color */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    color: #333; 
+    background-color: #fff; 
+    margin: 0; 
+    padding: 0; 
   }
   
-  /* Header styles */
+  
   .header {
-    background-color: #8C3545; /* Header background color */
-    color: #fff; /* Header text color */
-    padding: 10px 20px; /* Header padding */
+    background-color: #8C3545; 
+    color: #fff; 
+    padding: 10px 20px; 
   }
   
   .navbar {
@@ -569,7 +568,7 @@ body {
   }
   
   .logo {
-    width: 200px; /* Logo width */
+    width: 200px; 
   }
   
   .nav-menu {
@@ -580,52 +579,52 @@ body {
   }
   
   .nav-menu li {
-    margin-right: 20px; /* Margin between menu items */
+    margin-right: 20px; 
   }
   
   .search-bar {
-    margin-left: auto; /* Push search bar to the right */
+    margin-left: auto;
   }
   
-  /* Responsive styles */
+  
   @media screen and (max-width: 768px) {
-    /* Styles for tablets */
+    
     .logo {
-      width: 80px; /* Adjust logo width */
+      width: 80px; 
     }
   
     .nav-menu li {
-      margin-right: 10px; /* Reduce margin between menu items */
+      margin-right: 10px; 
     }
   }
   
   @media screen and (max-width: 480px) {
-    /* Styles for mobile devices */
+    
     .logo {
-      width: 60px; /* Further adjust logo width */
+      width: 60px; 
     }
   
     .nav-menu {
-      flex-direction: column; /* Stack menu items vertically */
+      flex-direction: column; 
     }
   
     .nav-menu li {
-      margin-right: 0; /* Remove margin between menu items */
-      margin-bottom: 10px; /* Add margin below each menu item */
+      margin-right: 0; 
+      margin-bottom: 10px; 
     }
   
     .search-bar {
-      margin-left: 0; /* Reset search bar margin */
-      margin-top: 10px; /* Add margin above search bar */
+      margin-left: 0; 
+      margin-top: 10px; 
     }
   }
   
-  /* Additional styles for smaller screen sizes */
+  
   @media screen and (max-width: 480px) {
-    /* Styles for smaller screens */
+    
     .person {
-      width: 100%; /* Make each person block full width */
-      margin-bottom: 20px; /* Add margin between person blocks */
+      width: 100%; 
+      margin-bottom: 20px; 
     }
   }
   
@@ -644,8 +643,8 @@ body {
 
 
   .search-form button {
-    background-color: #D9073F; /* Adjust button background color */
-    color: #fff; /* Adjust button text color */
+    background-color: #D9073F; 
+    color: #fff; 
     border: none;
     padding: 8px 16px;
     border-radius: 5px;
@@ -653,13 +652,13 @@ body {
   }
   
   .search-form button::before {
-    content: "\1F50D"; /* Unicode character for search icon */
-    font-family: Arial, sans-serif; /* Use a font that supports the search icon */
-    margin-right: 8px; /* Add space between the icon and text (if any) */
+    content: "\1F50D"; 
+    font-family: Arial, sans-serif; 
+    margin-right: 8px; 
   }
   
   .search-form button:hover {
-    background-color: #f20530; /* Adjust button hover background color */
+    background-color: #f20530; 
   }
   
 
@@ -690,7 +689,7 @@ body {
   
   .online-inquiry {
     flex: 1;
-    margin-right: 20px; /* Adjust margin between sections */
+    margin-right: 20px; 
   }
   
   .contact-persons {
@@ -721,7 +720,7 @@ body {
 
 
 
-  /* Styles for the login block */
+ 
 .login-block {
     width: 45%;
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
@@ -776,9 +775,83 @@ body {
 
 
   .about-chiro img {
-    width: 150px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    border-radius: 20px; /* Apply border radius for rounded corners */
+    width: 150px; 
+    height: 100px; 
+    border-radius: 20px; 
   }
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .contact-content {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.contact-form {
+  width: 300%; 
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  padding: 100px; 
+  border-radius: 20px;
+  color: white;
+}
+
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+#map {
+    width: 45%;
+    height: 300px; 
+    border-radius: 10px;
+    overflow: hidden;
+}
