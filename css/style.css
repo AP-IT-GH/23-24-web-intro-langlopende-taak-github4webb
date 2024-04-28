@@ -855,3 +855,80 @@ body {
     border-radius: 10px;
     overflow: hidden;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dashboard {
+  max-width: 1400px; 
+  margin: 0 auto; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  padding: 20px;
+}
+
+.block {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.block h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.chart,
+.map,
+.report,
+.graphs {
+  height: 150px; 
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+
+.recent-events,
+.widgets {
+  height: 100px; 
+}

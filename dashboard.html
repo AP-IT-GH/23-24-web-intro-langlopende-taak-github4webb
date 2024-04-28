@@ -38,34 +38,139 @@
 
 
 
-  <main>
-    <section class="dashboard-block">
-      <h2>Graphs</h2>
+      <div class="dashboard">
+        <div class="block">
+          <h2>Firewall Activity</h2>
+          <div class="chart">
+            <!-- voorbeeld voor  chart  firewall activiteit -->
+            <canvas id="firewallChart" width="400" height="200"></canvas>
+          </div>
+        </div>
+        <div class="block">
+          <h2>Recent Events</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Timestamp</th>
+                <th>Source IP</th>
+                <th>Destination IP</th>
+                <th>Event Type</th>
+                <th>Severity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- voorbeeld voor tabel  recente events -->
+              <tr>
+                <td>2024-04-25 08:30:15</td>
+                <td>192.168.1.100</td>
+                <td>8.8.8.8</td>
+                <td>Connection attempt</td>
+                <td>Low</td>
+              </tr>
+              <tr>
+                <td>2024-04-25 09:15:42</td>
+                <td>10.0.0.1</td>
+                <td>192.168.1.200</td>
+                <td>Malicious activity detected</td>
+                <td>High</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="block">
+          <h2>Network Map</h2>
+          <div class="map">
+            <!-- voorbeeld voor network map image -->
+            <img src="assets/network_map.jpg" alt="Network Map">
+          </div>
+        </div>
+        <div class="block">
+          <h2>Reports</h2>
+          <div class="report">
+            <!-- voorbeeld voor reports content -->
+            <p>Sample report goes here...</p>
+          </div>
+        </div>
+        <div class="block">
+          <h2>Widgets</h2>
+          <div class="widgets">
+            <!-- voorbeeld voor  widgets content -->
+            <p>Sample widgets go here...</p>
+          </div>
+        </div>
+        <div class="block">
+          <h2>Graphs</h2>
+          <div class="graphs">
+            <!-- voorbeelden voor grafieke content -->
+            <canvas id="graphsChart" width="400" height="200"></canvas>
+          </div>
+        </div>
+      </div>
       
-    </section>
-    <section class="dashboard-block">
-      <h2>Tables</h2>
       
-    </section>
-    <section class="dashboard-block">
-      <h2>Maps</h2>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script>
+        // voorbeeld voor firewall activiteit chart !!! 
+        var firewallCtx = document.getElementById('firewallChart').getContext('2d');
+        var firewallChart = new Chart(firewallCtx, {
+          type: 'line',
+          data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            datasets: [{
+              label: 'Firewall Activity',
+              data: [65, 59, 80, 81, 56, 55, 40],
+              borderColor: 'rgba(255, 99, 132, 1)',
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
       
-    </section>
-    <section class="dashboard-block">
-      <h2>Charts</h2>
+      //voorbeelden voor grafieken in the dashboard !!! 
+        var graphsCtx = document.getElementById('graphsChart').getContext('2d');
+        var graphsChart = new Chart(graphsCtx, {
+          type: 'bar',
+          data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+              label: '# of Votes',
+              data: [12, 19, 3, 5, 2, 3],
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+              ],
+              borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
       
-    </section>
-    <section class="dashboard-block">
-      <h2>Reports</h2>
-      
-    </section>
-    <section class="dashboard-block">
-      <h2>Widgets</h2>
-      
-    </section>
-  </main>
-  
-
 
 
 
